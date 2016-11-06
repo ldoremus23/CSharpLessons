@@ -18,9 +18,14 @@ namespace CSharpLessons.WorkingWithCollections
             car2.Make = "Geo";
             car2.Model = "Prism";
 
+            Car car3 = new Car();
+            car3.Make = "Nissan";
+            car3.Model = "Rouge";
+
             List<Car> carList = new List<Car>();
             carList.Add(car1);
             carList.Add(car2);
+            carList.Add(car3);
 
             foreach (Car car in carList)
             {
