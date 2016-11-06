@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpLessons.WorkingWithCollections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,9 @@ namespace CSharpLessons
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Hello World!\n{Environment.MachineName}");
+            Console.WriteLine($"Hello World!\n{Environment.MachineName}\n\n");
+
+            new CollectionsTest().PrintCars();
             Console.ReadLine();
         }
     }
