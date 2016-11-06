@@ -10,6 +10,8 @@ namespace CSharpLessons
     {
         static void Main(string[] args)
         {
+            Console.WriteLine($"Hello World!\n{Environment.MachineName}");
+            Console.ReadLine();
         }
     }
 }
